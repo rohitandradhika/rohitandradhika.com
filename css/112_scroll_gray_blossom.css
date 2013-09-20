@@ -1,0 +1,466 @@
+/*style_rules
+email_text_color #bdbbbc
+email_link_color #f0acb2
+email_line_color #f0acb2
+email_border_color #f0acb2
+home_photo_max_width 400 x 300
+*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #t-center {width:92% !important; padding:0 4% 0 4% !important;}
+    #t-content { width:100% !important; margin:0 !important; padding:0 !important;}
+    .c-photo{float:none !important; width:94% !important; padding:0 !important; }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and any image for entire site */
+body {
+    margin: 0px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    text-align: center;
+    background-position: top;
+    background: url('../images/112_bg_scroll_gray_blossom.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #f0acb2;
+}
+
+p {
+    color: #939393;
+}
+
+/* Set links for template */
+a {
+    color: #e2979d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e2979d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e2979d;
+    text-decoration: none;
+}
+
+small {
+    font-size: 9pt;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+/*=================================================================*/
+/*Polaroid border and drop shadow style for photos*/
+
+.c-photo img {
+    background: #e2979d;
+    padding: 1px 1px 1px 1px;
+    border: 1px solid #e2979d;
+    border-width: 0 0px 0px 0;
+}
+
+/*=================================================================*/
+/* Content Area images and color */
+/* background image and background color */
+/* background color is always behind image */
+#t-container {
+    position: relative;
+    width: 861px;
+    margin: 0 auto;
+    text-align: left;
+    background: url('../images/112_m_1px_scroll_gray_blossom.jpg') repeat-y;
+}
+
+/*=================================================================*/
+/*t-center is the larger container that holds t-links and t-content*/
+/*t-links holds the menu nav, and t-content holds page content*/
+#t-center {
+    position: relative;
+    background: url('../images/112_m_scroll_gray_blossom.jpg') no-repeat;
+    min-height: 600px;
+    _height: 600px;
+}
+
+/* customize menu links */
+#t-links {
+    padding-left: 45px;
+    padding-top: 43px;
+    font-size: 13px;
+    width: 135px;
+    display: block;
+    margin: 0;
+}
+
+#t-links ul {
+    margin: 0;
+    list-style-type: none;
+    color: #939393;
+}
+
+#t-links li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#t-links a {
+    color: #939393;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#t-link a:visited {
+    color: #939393;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#t-link a:hover {
+    color: #939393;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Set middle image */
+#t-content {
+    margin: 0 40px 0 200px;
+    padding-top: 38px;
+    padding-bottom: 20px;
+}
+
+/* the content text */
+.c-form {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e2979d;
+    text-align: left;
+}
+
+.c-text {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #e2979d;
+    text-align: left;
+}
+
+.c-info {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #e2979d;
+    text-align: left;
+    line-height: 21px;
+}
+
+.c-date {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #e2979d;
+    text-align: left;
+    font-weight: none;
+    line-height: 26px;
+}
+
+#c-countdown-days {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #e2979d;
+    text-align: left;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#c-countdown-text {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #e2979d;
+    text-align: left;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.c-odd,
+.c-even {
+    margin: 30px 0; /* 30px top and bottom, no margin left and right */
+}
+
+.c-intro {
+    color: #e2979d;
+}
+
+/* Photo Gallery Styles Start */
+/*space for gallery photo - should remain at 214 */
+#c-galleries-container .c-photo {
+    width: 214px;
+    padding-bottom: 0px;
+}
+
+/*spaces gallery description from it's title */
+#c-galleries-container .c-text {
+    padding-top: 0px;
+}
+
+/*title link for gallery name */
+#c-galleries-container .c-subtitle {
+    left: 241px;
+    padding-top: 0px;
+}
+
+/*backgrounds for galleries odd */
+#c-galleries-container .c-odd {
+    background-color: transparent;
+    padding: 15px 0px 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*backgrounds for galleries even */
+#c-galleries-container .c-even {
+    background-color: transparent;
+    padding: 15px 0px 0px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* display of thumbnails inside gallery */
+#c-photo-list .c-photo {
+    width: 214px;
+    height: 214px;
+}
+
+/* padding to manually center thumbnails in content region */
+#c-photo-list {
+    margin-left: 50px;
+}
+
+/* background color for individual thumbnails in a gallery */
+#c-photo-list .c-odd{
+    background-color: transparent;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* background color for individual thumbnails in a gallery */
+#c-photo-list .c-even{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+/* background color for individual large detail images */
+#c-photo-container {
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+}
+
+/* background color for individual large detail images */
+#c-photo-container .c-even {
+    text-align: center;
+}
+
+/* buttons for large image viewer - back to gallery */
+.c-page-up {
+    margin-right: 10px;
+}
+
+/* buttons for large image viewer - next */
+.c-page-next {
+    border: solid #ea94b7 1px;
+    padding: 3px 3px 4px 4px;
+    background-color: #f6cfdf;
+    margin-right: 61px;
+    text-align: center;
+}
+
+/* buttons for large image viewer - previous */
+.c-page-previous {
+    border: solid #ea94b7 1px;
+    padding: 3px 3px 4px 4px;
+    margin-right: 8px;
+    background-color: #f6cfdf;
+    text-align: center;
+}
+
+/* background color for individual large detail images */
+#c-photo-container .c-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Photo Gallery Styles End */
+/* Music Player Pop-up Heading */
+.c-player-container h4 {
+    color: #ffffff;
+}
+
+/* Headings */
+h3 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #e2979d;
+    text-align: left; /*margin-top : 1.5%;*/
+    margin-bottom: 2.0%;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #e2979d;
+    text-align: left;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    line-height: 21px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #7e7e7e;
+    text-align: left;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    line-height: 21px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+/*===================================================================*/
+/* Set styles for music pages */
+
+#c-music-playlist .c-odd, #c-music-playlist .c-even {
+    border-bottom: 1px dotted #b8b8b8;
+}
+
+#c-music-suggestions .c-odd, #c-music-suggestions .c-even {
+    border-bottom: 1px dotted #b8b8b8;
+    font-weight: normal;
+
+}
+
+.c-blog-container .c-odd, .c-blog-container .c-even {
+    border-bottom: 1px dotted #b8b8b8;
+}
+
+.c-byline {
+    color: #7e7e7e;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.c-artist{
+    color: #939393;
+}
+
+.c-author{
+    color: #7e7e7e;
+}
+
+/*===================================================================*/
+/* Set styles for blog pages */
+
+
+.c-blog-container .c-odd {
+    border-bottom: 1px dotted #b8b8b8;
+}
+
+.c-blog-container .c-even {
+    border-bottom: 1px dotted #b8b8b8;
+}
+
+#c-blog-comment-form {
+    color: #939393;
+}
+
+
+/*===================================================================*/
+/* Set styles for wedding events */
+
+#c-events-container .c-date {
+    color: #7e7e7e;
+}
+
+
+
+/*===================================================================*/
+/* Set styles misc style changes */
+
+
+
+.c-subtitle{
+    color: #939393;
+}
+
+
+
+/*===================================================================*/
+/* Set styles for form elements and buttons */
+
+.c-form .c-input-text {
+    font-size: 13px;
+    color: #939393;
+}
+
+#c-contact-form {
+    color: #939393;
+}
+
+ 
+.c-buttons input,.hotels .search-widget button {
+    border: 1px;
+    background-color: #e2979d;
+    color: #ffffff;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#c-rsvp-contact {
+    color: #939393;
+}
+
+#c-rsvp-attendance {
+    color: #939393;
+}
+
+/*===================================================================*/
+/* Set footer image */
+
+#t-footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    background: url('../images/112_f_scroll_gray_blossom.jpg') no-repeat left top;
+    text-align: center;
+    color: #e2979d;
+    line-height: 7px;
+    font-size: 11px;
+}
+
+#t-footer a {
+    color: #e2979d;
+    font-size: 11px;
+}
+
+#t-footer a:visited {
+    color: #e2979d;
+    font-size: 11px;
+}
+
+#t-footer a:hover {
+    color: #e2979d;
+    font-size: 11px;
+}
+

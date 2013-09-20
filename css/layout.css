@@ -1,0 +1,1270 @@
+/*******************/
+/* Template styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+/*******************/
+/* Expedia Form */
+.hotels {
+}
+
+.hotels .search-widget {
+    font-size: 14px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #555555;
+    overflow: hidden;
+    margin: 8px 0px 16px 0px;
+}
+
+.hotels .search-widget .search-widget-inner {
+    float: left;
+}
+
+.hotels .search-widget div, .hotels .search-widget ul, .hotels .search-widget li, .hotels .search-widget form, .hotels .search-widget label {
+    margin: 0;
+    padding-bottom: 4px;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.hotels .search-widget ul, .hotels .search-widget li {
+    list-style: none;
+}
+
+.hotels .search-widget label {
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    overflow: hidden;
+}
+
+.hotels .search-widget input.textbox, .hotels .search-widget select {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+.hotels .search-widget input.checkbox, .hotels .search-widget input.radio {
+    margin: 0 5px 0 2px;
+    padding: 0;
+    height: 14px;
+    width: 14px;
+    border: none;
+}
+
+.hotels .search-widget .button-block {
+    clear: both;
+}
+
+.hotels .search-widget .predefined-destinations-block {
+    float: left;
+    width: 100%;
+}
+
+.hotels .search-widget .predefined-destinations-block ul {
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+.hotels .search-widget .predefined-destinations-block li {
+    float: left;
+    overflow: hidden;
+    width: 33%;
+    margin-top: 1px;
+}
+
+.hotels .search-widget .predefined-destinations-block input {
+    float: left;
+}
+
+.hotels .search-widget .predefined-destinations-block label {
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.hotels .search-widget .destination-block {
+    padding-right: 13px;
+}
+
+.hotels .search-widget .destination-block input {
+    width: 100%;
+}
+
+.hotels .search-widget .check-in-block, .hotels .search-widget .check-out-block, .hotels .search-widget .rooms-block, .hotels .search-widget .adults-block, .hotels .search-widget .children-block, .hotels .search-widget .hotel-chains-block, .hotels .search-widget .star-rating-block {
+    float: left;
+}
+
+.hotels .search-widget .check-in-block, .hotels .search-widget .hotel-chains-block {
+    clear: both;
+}
+
+.hotels .search-widget .calendar-icon {
+    background: url("https://www.travelnow.com/templates/379630/static/47/default/images/widgets/searchwidget/ico-calendar.png") right top no-repeat;
+    width: 21px;
+    height: 22px;
+    float: right;
+    cursor: pointer;
+}
+
+.hotels .search-widget .reset-dates-block {
+    clear: both;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hotels .search-widget .reset-dates-block label {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 6px;
+}
+
+.hotels #check-inDialogContainer .bd form {
+    clear: left;
+}
+
+.hotels #check-inDialogContainer .bd {
+    padding: 0;
+}
+
+.hotels #check-inDialogContainer .hd {
+    text-align: left;
+}
+
+.hotels #check-inDialogContainer .ft .button-group {
+    text-align: center;
+}
+
+.hotels #check-inDialogContainer.yui-overlay-hidden table {
+    *display: none;
+}
+
+.hotels #check-inContainerCalendar {
+    border: none;
+    padding: 1em;
+}
+
+.hotels #check-outDialogContainer .bd form {
+    clear: left;
+}
+
+.hotels #check-outDialogContainer .bd {
+    padding: 0;
+}
+
+.hotels #check-outDialogContainer .hd {
+    text-align: left;
+}
+
+.hotels #check-outDialogContainer .ft .button-group {
+    text-align: center;
+}
+
+.hotels #check-outDialogContainer.yui-overlay-hidden table {
+    *display: none;
+}
+
+.hotels #check-outContainerCalendar {
+    border: none;
+    padding: 1em;
+}
+
+.hotels .size420x348A {
+    height: 100%;
+    font-size: 14px;
+}
+
+.hotels .size420x348A .search-widget-inner {
+    padding: 7px 6px 0 0;
+}
+
+.hotels .size420x348A .predefined-destinations-block {
+    display: none;
+}
+
+.hotels .size420x348A .check-in-block, .hotels .size420x348A .check-out-block, .hotels .size420x348A .rooms-block, .hotels .size420x348A .adults-block, .hotels .size420x348A .children-block, .hotels .size420x348A .hotel-chains-block {
+    width: 180px;
+    padding-right: 8px;
+}
+
+.hotels .size420x348A .star-rating-block {
+    padding-right: 8px;
+}
+
+.hotels .size420x348A .check-in-block input, .hotels .size420x348A .check-out-block input {
+    width: 142px;
+}
+
+* html .size420x348A {
+    width: 650px;
+    height: 350px;
+}
+
+* html .size420x348A .check-in-block, * html .size420x348A .check-out-block, * html .size420x348A .rooms-block, * html .size420x348A .adults-block, * html .size420x348A .children-block, * html .size420x348A .hotel-chains-block, * html .size420x348A .star-rating-block {
+    width: 180px;
+}
+
+.hotels .search-widget .button-block {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.c-buttons input, .hotels .search-widget button {
+    width: 150px;
+    height: 30px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+@media screen and (max-device-width : 480px) {
+    html {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #t-header-image img {
+        width: 100%;
+    }
+
+    #t-container {
+        width: 100% !important;
+        margin: 0 auto !important;
+        background-size: 100% !important;
+    }
+
+    #t-center {
+        width: 96% !important;
+        padding: 0 2% 0 2%;
+        margin: 0 !important;
+        background-size: 100% !important;
+    }
+
+    #t-content {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #t-links {
+        width: 100% !important;
+        display: block;
+        margin: 0;
+        padding-top: 10px !important;
+        padding-left: 0 !important;
+        position: relative !important;
+    }
+
+    #t-links ul {
+        display: none;
+    }
+
+    #t-links select {
+        display: block !important;
+        font-size: 14px;
+        margin: 0 auto;
+        width: 100%;
+        height: 40px;
+    }
+
+    h3 {
+        font-size: 24px !important;
+        margin-top: 10px;
+    }
+
+    .c-photo img {
+        width: 96% !important;
+        height: auto;
+        border: none;
+        padding: 0 !important;
+        float: left !important;
+    }
+
+    .c-info, .c-date, .c-form {
+        font-size: 20px !important;
+    }
+
+    .c-text {
+        font-size: 16px !important;
+    }
+
+    .c-form {
+        font-size: 12px !important;
+    }
+
+    .c-form input {
+        width: 96% !important;
+    }
+
+    .c-form textarea {
+        width: 96% !important;
+    }
+
+    #c-guestbook-form label, #c-contact-form label, #c-rsvp-contact label, #c-music-submit-form label {
+        display: none;
+    }
+
+    #c-rsvp-attend-yes, #c-rsvp-attend-no {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    #c-rsvp-num-guests input, #c-rsvp-attend-yes input, #c-rsvp-attend-no input {
+        width: 50px !important;
+    }
+
+    #c-rsvp-comments {
+        padding: 0 !important;
+    }
+
+    ul.c-buttons {
+        width: 150px !important;
+        margin: 0 auto !important;
+        padding-top: 20px !important;
+    }
+
+    .c-buttons input {
+        width: 150px !important;
+    }
+
+    .c-page-navigation {
+        font-size: 14px;
+    }
+
+    #c-photo-container {
+        padding: 0 !important
+    }
+
+    .c-page-sequence {
+        margin: 0 !important;
+    }
+
+    #t-footer {
+        background: none !important;
+        padding: 5px 0 5px 0 !important;
+        line-height: 14px !important;
+        font-size: 10px !important;
+    }
+
+    #t-footer a, #t-footer a:visited, #t-footer a:hover {
+        font-size: 10px !important;
+    }
+
+    #c-registries-container .c-even, #c-registries-container .c-odd {
+        width: 100% !important;
+        margin: 0 0 15px 0 !important;
+        border: 4px solid rgba(0, 0, 0, 0.2);
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        box-sizing: border-box;
+    }
+
+    #c-registries-container .c-subtitle {
+        display: block !important;
+        padding: 15px 0 15px 0;
+        width: 100% !important;
+        height: inherit !important;
+    }
+
+}
+
+p,
+h3,
+h4,
+h5 {
+    margin: 1em 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+ol,
+ul,
+dir,
+menu,
+dd {
+    margin: 1em 0 1em 40px;
+}
+
+ol ul,
+ul ol,
+ul ul,
+ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+iframe {
+    background: transparent;
+}
+
+img {
+    border: 0; /* no borders on img inside links */
+    -ms-interpolation-mode: bicubic; /* helps client side scaling in IE 7 */
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#t-container {
+    width: 760px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#t-header h1,
+#t-header h2 {
+    display: none;
+}
+
+#t-center {
+    position: relative;
+    _height: 1%;
+}
+
+#t-links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 180px;
+}
+
+#t-links #facebook-button {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+#t-content {
+    margin: 0 0 0 180px;
+    min-height: 300px;
+    _height: 300px;
+}
+
+#t-links ul {
+    list-style: none;
+}
+
+#t-footer {
+    text-align: center;
+}
+
+/***********************/
+/* Default form styles */
+
+.c-error-message {
+    clear: both;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 1em 0;
+}
+
+.c-error-message p,
+.c-error-message li {
+    color: #ff0000;
+}
+
+.c-form {
+    clear: both;
+}
+
+table.c-form {
+    border-collapse: collapse;
+}
+
+table.c-form td {
+    padding: 2px 0;
+    vertical-align: top;
+}
+
+.c-form label {
+    margin-right: 1em;
+}
+
+.c-input-text {
+    width: 250px;
+}
+
+.c-input-number {
+    width: 40px;
+}
+
+.c-input-date {
+    width: 80px;
+}
+
+.c-form small {
+    display: block;
+}
+
+.c-error-list {
+    margin: 0 0 10px 30px;
+}
+
+ul.c-buttons {
+    width: 350px;
+    margin-top: 10px;
+    list-style: none;
+    text-align: right;
+}
+
+ul.c-buttons li {
+    display: inline;
+    padding: 0 0 0 5px;
+}
+
+/*****************/
+/* Global styles */
+.c-info p {
+    margin: 0;
+}
+
+/**************************/
+/* Page navigation styles */
+
+.c-page-navigation {
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.c-page-navigation .c-page-up {
+    text-align: left;
+}
+
+.c-page-navigation .c-page-up a {
+    padding-right: 20px;
+}
+
+.c-page-navigation .c-page-sequence {
+    padding: 10px 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.c-page-navigation .c-page-previous,
+.c-page-navigation .c-page-next {
+    display: inline;
+}
+
+.c-page-navigation .c-page-previous a,
+.c-page-navigation .c-page-next a {
+    text-decoration: none;
+}
+
+.c-page-navigation .c-page-current {
+    float: left;
+}
+
+.c-page-navigation .c-page-up .c-separator {
+    /***display: none;****/
+}
+
+/********************/
+/* Our story styles */
+
+#c-story-container .c-photo {
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+#c-story-container .c-odd,
+#c-story-container .c-even {
+    clear: right;
+}
+
+/*************************/
+/* Wedding events styles */
+
+#c-events-container h5 {
+    margin: 0;
+}
+
+#c-events-container p {
+    margin-top: 0;
+}
+
+/************************/
+/* Wedding party styles */
+
+#c-party-container .c-photo {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+#c-party-container .c-odd,
+#c-party-container .c-even {
+    clear: left;
+}
+
+/********************/
+/* Guestbook styles */
+
+#c-guestbook-container .c-text {
+    margin: 0;
+}
+
+#c-guestbook-container .c-text p {
+    margin-top: 0;
+}
+
+#c-guestbook-sign-link {
+    margin: 1em 0;
+}
+
+/***************/
+/* RSVP styles */
+
+#c-rsvp-attendance {
+    margin: 1em 0;
+}
+
+#c-rsvp-attend {
+    list-style: none;
+}
+
+#c-rsvp-guests td {
+    padding-right: 1em;
+}
+
+.c-rsvp-guest label {
+    display: block;
+}
+
+.c-rsvp-guest .c-input-text {
+    width: 110px;
+}
+
+.c-rsvp-guest .c-select {
+    width: 150px;
+}
+
+/******************/
+/* Gallery styles */
+
+#c-galleries-container ul,
+#c-photo-list-container ul {
+    list-style: none;
+}
+
+#c-galleries-container .c-photo {
+    float: left;
+    width: 210px;
+    padding: 0 10px 10px 0;
+    text-align: center;
+}
+
+#c-galleries-container .c-odd,
+#c-galleries-container .c-even {
+    position: relative;
+    clear: left;
+}
+
+/*#c-galleries-container .c-subtitle {
+	position: absolute;
+	top: 0;
+	left: 210px;
+}*/
+
+#c-galleries-container .c-text {
+    padding: 30px 0 0 0;
+}
+
+#c-photo-list-container .c-subtitle {
+    display: none;
+}
+
+#c-photo-list-container .c-text {
+    display: none;
+
+}
+
+#c-photo-list-container .c-page-navigation {
+    text-align: center;
+    margin: 10px auto;
+}
+
+#c-photo-list-container .c-page-previous,
+#c-photo-list-container .c-page-next {
+    display: none;
+}
+
+#c-photo-list-container .c-page-list li {
+    display: inline;
+}
+
+#c-photo-list li {
+    float: left;
+    width: 210px;
+    height: 210px;
+    margin: 0;
+    padding: 10px;
+}
+
+/*** Start photo-centering hijinx ***/
+
+/* These rules are for internet explorer */
+#c-photo-list .c-photo {
+    overflow: hidden;
+    position: relative;
+    width: 210px;
+    height: 210px;
+}
+
+#c-photo-list .c-photo a {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+}
+
+#c-photo-list img {
+    display: block;
+    position: relative;
+    top: -50%;
+    left: -50%;
+}
+
+/* These are for firefox/standards compliant browsers */
+#c-photo-list>li .c-photo {
+    display: table;
+}
+
+#c-photo-list>li .c-photo a {
+    display: table-cell;
+    position: static;
+    vertical-align: middle;
+}
+
+#c-photo-list>li img {
+    position: static;
+    margin: 0 auto;
+}
+
+/*** End photo-centering hijinx ***/
+
+#c-photo-container .c-photo-frame {
+    clear: both;
+}
+
+#c-photo-container .c-subtitle {
+    display: none;
+}
+
+#c-photo-container .c-even,
+#c-photo-container .c-odd {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#c-photo-container .c-photo,
+#c-photo-container .c-text {
+    text-align: center;
+}
+
+/*****************/
+/* Custom Styles */
+#c-custom-container .c-photo {
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+#c-custom-container .c-odd,
+#c-custom-container .c-even {
+    clear: right;
+}
+
+/*****************/
+/* Events Styles */
+#c-events-container .c-photo {
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+#c-events-container .c-odd,
+#c-events-container .c-even {
+    clear: right;
+}
+
+/*****************/
+/* Accommodations Styles */
+#c-accommodations-container .c-photo {
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+#c-accommodations-container .c-odd,
+#c-accommodations-container .c-even {
+    clear: right;
+}
+
+/*****************/
+/* Attractions Styles */
+#c-attractions-container .c-photo {
+    float: right;
+    padding: 0 0 10px 10px;
+}
+
+#c-attractions-container .c-odd,
+#c-attractions-container .c-even {
+    clear: right;
+}
+
+/****************/
+/* Login styles */
+
+#c-login-unregistered {
+    clear: both;
+}
+
+#c-register-form,
+#c-private-request {
+    margin-top: 50px;
+}
+
+/****************/
+/* Music styles */
+#c-player-body {
+    background-image: none;
+    margin: 10px;
+}
+
+#c-music-container #c-music-playlist .c-subtitle {
+    font-weight: bold;
+}
+
+#c-music-container #c-music-playlist .c-link {
+    float: right;
+    margin-right: 10px;
+}
+
+#c-music-container #c-music-playlist .c-odd,
+#c-music-container #c-music-playlist .c-even {
+    border-bottom: 1px dotted;
+    margin: 0;
+    padding: 10px 10px 10px 5px;
+}
+
+#c-music-container #c-music-suggestions h4 {
+    margin-top: 2em;
+}
+
+#c-music-container #c-music-suggestions .c-odd {
+    border-bottom: 1px dotted;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#c-music-container #c-music-suggestions .c-even {
+    border-bottom: 1px dotted;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#c-music-container #c-music-suggestions .c-subtitle {
+    font-weight: bold;
+}
+
+#c-music-container #c-music-suggestions .c-info p {
+    line-height: 1.3em;
+}
+
+#c-music-container #c-music-suggestions .c-info .c-odd,
+#c-music-container #c-music-suggestions .c-info .c-even {
+    border: none;
+    padding: 0;
+    margin: 15px 10px 0px 10px;
+}
+
+#c-music-container #c-music-suggestions .c-link {
+    display: block;
+    margin-top: 10px;
+}
+
+#c-music-container a {
+    display: block;
+    margin-top: .5em;
+}
+
+/****************/
+/* Blog styles  */
+.c-blog-container .c-intro {
+    margin-bottom: 2em;
+}
+
+.c-blog-container h3,
+.c-blog-container h4 {
+    margin-bottom: .25em;
+}
+
+.c-blog-container .c-continue {
+    float: right;
+}
+
+.c-blog-container .c-continue {
+    font-size: .9em;
+}
+
+.c-blog-container .c-comments {
+    float: left;
+    font-size: .9em;
+}
+
+.c-blog-container .c-byline {
+    margin: .25em 0 .5em 0;
+}
+
+.c-blog-comment-container .c-byline {
+    margin: .25em 0 .5em 0;
+}
+
+.c-blog-container .c-odd,
+.c-blog-container .c-even {
+    margin: 1em 0;
+    border-bottom: 1px dotted;
+    padding-bottom: .5em;
+}
+
+.c-blog-container p {
+    margin-bottom: .5em;
+}
+
+.c-blog-comment-container {
+    margin-top: 2em;
+}
+
+.c-blog-comment-container .c-odd,
+.c-blog-comment-container .c-even {
+    border-bottom: 1px dotted;
+}
+
+.c-blog-container .c-feed-links {
+    text-align: right;
+    font-size: .9em;
+}
+
+.c-blog-container .c-feed-links span {
+    background: url(/main/images/icon/feed-icon-16x16.gif) no-repeat left center;
+    padding: 5px 0 5px 20px;
+}
+
+.c-blog-container #c-blog-comment-heading {
+    margin-top: 2em;
+}
+
+/* This overrides a commonly set style in individual design stylesheets
+ * that puts margin on the next button to line it up on that page. This doesn't
+ * apply on the blog page, so here's a reset. */
+.c-blog-container .c-page-next {
+    margin: 0;
+}
+
+/***************/
+/* Style fixes */
+
+/* Force alternating rows to always enclose their floated elements */
+/* Hide from IE5/Mac \*/
+* html .c-even,
+* html .c-odd,
+* html #c-photo-list {
+    height: 1%;
+}
+
+/* End hide from IE5/Mac */
+#t-content:after,
+.c-even:after,
+.c-odd:after,
+#c-photo-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* KLO-1947:  Override the after display for <tr>'s (to fix unexpected result in chrome) */
+tr.c-even:after,
+tr.c-odd:after {
+    display: none;
+}
+
+#blogCommentForm dt {
+    margin-bottom: 10px;
+}
+
+#blogCommentForm dd {
+    margin: 0px 0px 10px 0px;
+}
+
+#captchaForm dt {
+    margin-bottom: 10px;
+}
+
+#captchaForm dd {
+    margin: 0px 0px 10px 0px;
+}
+
+#captchaForm pre {
+    margin-bottom: 10px;
+}
+
+#captchaForm ul.errors {
+    list-style-type: none;
+    color: red;
+    margin: 10px 0px 0px 0px !important;
+    padding: 0px !important;
+}
+
+#captchaForm ul.errors li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.c-form {
+    font-size: 16px;
+    color: #333;
+}
+
+#c-contact-container {
+    padding: 0;
+}
+
+.c-form input {
+    width: 320px;
+    height: 25px;
+    background: #fef9fa; /* background color for name and email field */
+    color: #666; /* text color for inside of name and email field */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    -moz-box-shadow: inset 0 0 10px #ccc; /*color for inset shadow in name and email field */
+    -webkit-box-shadow: inset 0 0 10px #ccc;
+    box-shadow: inset 0 0 10px #ccc;
+    padding: 4px;
+}
+
+.c-form input:hover {
+    background: rgb(255, 255, 255); /* IE fallback */
+    background: rgba(255, 255, 255, 0.7); /* background color for name and email field in HOVER state*/
+}
+
+.c-form input:focus {
+    background: rgb(255, 255, 255); /* IE fallback */
+    background: rgba(255, 255, 255, 0.9); /* background color for name and email field when clicked on (Active) */
+    color: #333;
+}
+
+.c-form textarea {
+    width: 320px;
+    height: 100px;
+    border: 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -moz-box-shadow: inset 0 0 10px #ccc; /*color for inset shadow in comment field */
+    -webkit-box-shadow: inset 0 0 10px #ccc;
+    box-shadow: inset 0 0 10px #ccc;
+    padding: 4px;
+}
+
+.c-form textarea:hover {
+    background: rgb(255, 255, 255); /* IE fallback */
+    background: rgba(255, 255, 255, 0.7); /* background color for comment field in HOVER state*/
+}
+
+.c-form textarea:focus {
+    background: rgb(255, 255, 255); /* IE fallback */
+    background: rgba(255, 255, 255, 0.9); /* background color for comment field when clicked on (Active) */
+    color: #333;
+}
+
+.c-input-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/*===================================================================*/
+/* ************************* RSVP **************************** */
+/*===================================================================*/
+
+#c-rsvp-contact h4, #info h4 {
+    margin-bottom: 25px;
+}
+
+#c-rsvp-contact label {
+    padding-left: 30px;
+}
+
+#c-rsvp-comments {
+    padding-left: 110px;
+}
+
+#c-rsvp-attend-yes, #c-rsvp-attend-no {
+    margin: 0;
+    padding: 0 0 0 50px;
+    height: 34px;
+}
+
+#c-rsvp-attend-yes input, #c-rsvp-attend-no input, #c-register-agree-terms input {
+    width: 30px;
+    height: 20px;
+}
+
+#c-rsvp-attend-yes label, #c-rsvp-attend-no label {
+    margin: 0;
+    padding: 0;
+    height: 34px;
+}
+
+#c-rsvp-num-guests input {
+    width: 40px;
+    text-align: center;
+}
+
+.c-buttons input {
+    border: none;
+    height: 30px;
+    width: 150px;
+
+}
+
+/*===================================================================*/
+
+/*===================================================================*/
+/* REGISTRIES */
+
+#c-registries-container .c-even, #c-registries-container .c-odd {
+    position: relative;
+    width: 300px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    border: 10px solid #ccc; /* IE 8 fallback */
+    border: 10px solid rgba(0, 0, 0, 0.2);
+    margin: 0 0 15px 20px;
+    padding: 0 0px 40px 0px;
+}
+
+#c-registries-container .c-text {
+    margin: 0;
+    padding: 0 10px;
+}
+
+#c-registries-container .c-text p {
+    color: #333;
+}
+
+#c-registries-container .c-info {
+    padding: 0 10px;
+}
+
+#c-registries-container .c-subtitle {
+    display: table-cell;
+    height: 100px;
+    width: inherit;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#c-registries-container .c-subtitle h4 {
+    font-size: 22px;
+    padding: 28px 0 28px 0;
+    color: #333;
+}
+
+#c-registries-container .c-subtitle h4 {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#c-registries-container .c-subtitle h4 a {
+    color: #444;
+    text-decoration: none;
+}
+
+#c-registries-container .c-subtitle h4 a:visited {
+    color: #444;
+}
+
+#c-registries-container .c-subtitle h4 a:hover {
+    color: #646464;
+}
+
+/* maintain styles for old style registries until republished */
+#c-registries-container .c-subtitle img {
+    max-width: 280px;
+    height: auto !important;
+    zoom: 1;
+}
+
+#c-registries-container .c-subtitle h4 a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#c-registries-container .c-link {
+    background: #444;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    padding: 5px 0 5px 0;
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: inset 0 0 10px #ccc;
+    -webkit-box-shadow: inset 0 0 10px #ccc;
+}
+
+#c-registries-container .c-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#c-registries-container .c-link:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    -webkit-transition: background .5s ease;
+    -moz-transition: background .5s ease;
+    -o-transition: background .5s ease;
+    transition: background .5s ease;
+}
+
+/*===================================================================*/
