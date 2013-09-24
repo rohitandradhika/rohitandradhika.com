@@ -81,52 +81,80 @@
 
             </ul>
         </div>
-        <div id="t-content">
+
+<div id="t-content">
             <a name="content"></a>
-<script type="text/javascript" src="js/yahoo-dom-event.js"></script>
-<script type="text/javascript" src="js/connection-min.js"></script>
-<script type="text/javascript" src="js/cookies.js"></script>
-<script type="text/javascript" src="js/swfobject.js"></script>
-<script type="text/javascript" src="js/music.js"></script>
-
-<h3 id="c-home-title" class="c-title"><span>Welcome</span></h3>
-<div id="c-home-container" class="c-container">
-
-    <div class="c-photo">
-        <img src="images/IMG_2728cropped.jpg" alt="Rohit &amp; Radhika" />
-    </div>
-    <div class="c-info">
-        <p class="c-date">Our wedding date: July 11, 2014</p>
-        <p id="c-countdown"><span id="c-countdown-days"></span><span id="c-countdown-text"></span></p>
-        <script type="text/javascript"> display_countdown('July 11,2014'); </script>
-
-    </div>
-    <div class="c-text">
-        <p>Thank you for visiting our wedding website! </p>
-        <p>Please feel free to browse around to learn more about us and our wedding details. Click on the 'play music while browsing the site' link to enjoy our music selection while viewing our website. You can also see our photos, suggested places to visit, and much more! Keep visiting for updates!</p>
-        <p>Don't forget to download our wedding app for your Android or iPhone and get easy access to updates. Also, make sure you sign our guestbook and RSVP!</p>
-        <p>Hope to see you in July 2014! </p>
-    </div>
-</div>
-
-<div id="c-music-player"></div>
-<div id="c-music-container">
-        <script type="text/javascript">
-        embedPlayerObject("rohitandradhika", "c-music-player", true);
+<h3 id="c-rsvp-title" class="c-title"><span>Haldi</span></h3>
+<div id="c-rsvp-container" class="c-container">
+    <div class="c-intro"><p></p></div><p><div class="c-intro">Date: Wednesday, July 9, 2014</div><div class="c-intro">Time: To be announced</div></p> <form action="https://docs.google.com/forms/d/17IUSzRVVQhRUvt6UONgmpXCAYidlfBrhMbY4PfihyxU/formResponse" method="post">
+    <table id="c-rsvp-contact" class="c-form">
+        <thead>
+            <tr>
+                <th colspan="2"><h4>Your contact information</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="c-rsvp-first-name" class="c-odd">
+                <td><label for="first_name">First Name:</label></td>
+                <td><input type="text" name="entry.1207017988" id="first_name" placeholder="First Name" value="" class="c-input-text" /></td>
+            </tr>
+            <tr id="c-rsvp-last-name" class="c-even">
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input type="text" name="entry.808911366" id="last_name" placeholder="Last Name" value="" class="c-input-text" /></td>
+            </tr>
+            <tr id="c-rsvp-email" class="c-odd">
+                <td><label for="email">Email:</label></td>
+                <td>
+                    <input type="text" name="entry.202535433" id="email" placeholder="Email" value="" class="c-input-text" />
+                    <small>Your email address will be visible to the couple only</small>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <script>
+        function attendToggle(radio) {
+            if(radio.value == 0) {
+                document.getElementById('c-rsvp-num-guests').className = 'hidden';
+            } else {
+                document.getElementById('c-rsvp-num-guests').className = '';
+            }
+        }
     </script>
-    <a href="#" onClick="return switchToPopup('rohitandradhika')">Play music while browsing the site</a>
+    
+    <div id="c-rsvp-attendance" class="c-form">
+        <h4>Will you be attending?</h4>
+        <ul id="c-rsvp-attend">
+            <li id="c-rsvp-attend-yes"><label for="attend_yes"><input type="radio" name="entry.2071710999" id="attend_yes" value="1" class="c-input-radio" onclick="attendToggle(this);" />Yes, I will attend</label></li>
+            <li id="c-rsvp-attend-no"><label for="attend_no"><input type="radio" name="entry.2071710999" id="attend_no" value="0" class="c-input-radio" onclick="attendToggle(this);" />No, I will not attend</label></li>
+        </ul>
+                <div id="c-rsvp-num-guests">
+            <label for="num_guests">Guests in your party, including yourself:</label>
+            <input type="text" name="entry.1158139817" id="num_guests" value="0" class="c-input-text c-input-number" />
+                        (Max. 5)
+                    </div>
+            </div>
+    <div id="info" class="c-form">
+        <h4><label for="comments">A message for the couple</label></h4>
+        <div id="c-rsvp-comments">
+            <textarea name="entry.850516802" id="comments" placeholder="Message" rows="4" cols="40" class="c-input-text"></textarea>
+        </div>
     </div>
+    <ul class="c-buttons">
+        <li id="c-rsvp-next"><input type="submit" value="Next&gt;&gt;" /></li>
+    </ul>
+    </form>
+</div>
 
         </div>
     </div>
     <div id="t-footer">
-        <p>Design by <a href="http://www.shareasale.com/r.cfm?u=233322&amp;b=114724&amp;m=16351&amp;afftrack=wedding_website&amp;urllink=www%2Epapeteriestore%2Ecom%2Fitem%2Ephp%3Fitem%5Fid%3D250%26page%3D2%26category%5Fid%3D63" target="_blank" rel="nofollow">Papeterie</a></p>
                 <p>
-            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mywedding.com/rohitandradhika/index.html&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mywedding.com/apps/public/mysite/rsvp.html&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
         </p>
+        
     </div>
 </div>
-
 
 <script type="text/javascript" language="javascript" src="js/util.js"></script>
 </body>
