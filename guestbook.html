@@ -107,7 +107,7 @@
 
     $.getJSON('https://spreadsheets.google.com/feeds/list/0AhMIJYZ8OAEidDg4QnY5bzJoRDB0REE4dnRRc0xRbkE/od6/public/basic?alt=json', function(data) {
             $.each(data['feed']['entry'], function(key, val) {
-                expression = /name: ([A-Za-z ]+), email: .*, yourmessage: (.*)/;
+                expression = /name: (.*), email: .*, yourmessage: ((.|\n)*)/;
                 values = val['content']['$t'];
                 timestamp = val['title']['$t'];
                 date_arr = timestamp.split('/');
